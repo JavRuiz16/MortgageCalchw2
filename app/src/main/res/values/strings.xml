@@ -1,0 +1,8 @@
+<resources>
+        <string name="app_MortgageCalcHw2">">Loan Amount</string>
+        <string name="calculate_mortgage">calculate mortgage</string>
+        <string name="mortgage_amount">Number of Years</string>
+        <string name="interest_amount">interest Rate: %s</string>
+    <string name="app_name" />
+    <string name="loan_amount" />
+</resources>
