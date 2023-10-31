@@ -112,12 +112,13 @@ fun EditNumberField(
 ) {
     TextField(
         value = value,
-        onValueChange = onValueChange,
+        onValueChange = {},
         modifier = modifier,
         label = { Text(text = stringResource(id = label)) },
         keyboardOptions = keyboardOptions
     )
 }
+
 
 private fun calculateMortgage(amount: Double, interestPercent: Double = 5.0): String {
     val interest = interestPercent / 100 * amount
